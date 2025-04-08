@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "T5lgb2jCZHA=",
+  "success": true,
+  "projectFilePath": "/home/agonzalez/Proyectos/quantiva.framework.dependecyannotation/DependencyAnnotation/DependencyAnnotation.csproj",
+  "expectedPackageFiles": [
+    "/home/agonzalez/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

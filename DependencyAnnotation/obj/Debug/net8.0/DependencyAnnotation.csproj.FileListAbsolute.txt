@@ -1,0 +1,12 @@
+/home/agonzalez/Proyectos/quantiva.framework.dependecyannotation/DependencyAnnotation/bin/Debug/net8.0/DependencyAnnotation.deps.json
+/home/agonzalez/Proyectos/quantiva.framework.dependecyannotation/DependencyAnnotation/bin/Debug/net8.0/DependencyAnnotation.dll
+/home/agonzalez/Proyectos/quantiva.framework.dependecyannotation/DependencyAnnotation/bin/Debug/net8.0/DependencyAnnotation.pdb
+/home/agonzalez/Proyectos/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net8.0/DependencyAnnotation.csproj.AssemblyReference.cache
+/home/agonzalez/Proyectos/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net8.0/DependencyAnnotation.GeneratedMSBuildEditorConfig.editorconfig
+/home/agonzalez/Proyectos/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net8.0/DependencyAnnotation.AssemblyInfoInputs.cache
+/home/agonzalez/Proyectos/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net8.0/DependencyAnnotation.AssemblyInfo.cs
+/home/agonzalez/Proyectos/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net8.0/DependencyAnnotation.csproj.CoreCompileInputs.cache
+/home/agonzalez/Proyectos/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net8.0/DependencyAnnotation.dll
+/home/agonzalez/Proyectos/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net8.0/refint/DependencyAnnotation.dll
+/home/agonzalez/Proyectos/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net8.0/DependencyAnnotation.pdb
+/home/agonzalez/Proyectos/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net8.0/ref/DependencyAnnotation.dll
