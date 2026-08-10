@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>QuantiveCorp.Framework.DependencyAnnotation</id>
+    <version>1.0.6</version>
+    <authors>KatanaSGC</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/KatanaSGC/sge.framework.middleman</projectUrl>
+    <description>This package simplifies the implementation of dependency injection. It only requires adding one annotation to classes, avoiding the need to load Program or Startup at the dependency configuration level..</description>
+    <repository type="git" url="https://github.com/KatanaSGC/sge.framework.middleman" commit="07308772df74d7f6fe53cdb08dab8bb9f2f07e18" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="10.0.10" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="8.0.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net9.0">
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.18" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/bin/Release/net10.0/DependencyAnnotation.dll" target="lib/net10.0/DependencyAnnotation.dll" />
+    <file src="/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/bin/Release/net8.0/DependencyAnnotation.dll" target="lib/net8.0/DependencyAnnotation.dll" />
+    <file src="/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/bin/Release/net9.0/DependencyAnnotation.dll" target="lib/net9.0/DependencyAnnotation.dll" />
+    <file src="/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/README.md" target="/README.md" />
+  </files>
+</package>

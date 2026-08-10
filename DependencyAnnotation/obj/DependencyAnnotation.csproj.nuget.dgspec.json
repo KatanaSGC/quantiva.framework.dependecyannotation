@@ -5,7 +5,7 @@
   },
   "projects": {
     "/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/DependencyAnnotation.csproj": {
-      "version": "1.0.3",
+      "version": "1.0.6",
       "restore": {
         "projectUniqueName": "/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/DependencyAnnotation.csproj",
         "projectName": "QuantiveCorp.Framework.DependencyAnnotation",

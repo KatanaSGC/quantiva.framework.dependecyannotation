@@ -5,14 +5,14 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>QuantiveCorp.Framework.DependencyAnnotation</PackageId>
-        <Version>1.0.4</Version>
+        <Version>1.0.6</Version>
         <Authors>KatanaSGC</Authors>
         <Description>This package simplifies the implementation of dependency injection. It only requires adding one annotation to classes, avoiding the need to load Program or Startup at the dependency configuration level..</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageProjectUrl>https://github.com/KatanaSGC/sge.framework.middleman</PackageProjectUrl>
         <RepositoryUrl>https://github.com/KatanaSGC/sge.framework.middleman</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        <RootNamespace>sge.framework.middleman</RootNamespace>
+        <RootNamespace>quantiva.framework.dependecyannotation</RootNamespace>
         <PackageTitle>SGE.Framework.Middleman</PackageTitle>
         <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>

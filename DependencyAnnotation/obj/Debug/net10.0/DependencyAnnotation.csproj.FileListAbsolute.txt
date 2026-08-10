@@ -1,0 +1,13 @@
+/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/bin/Debug/net10.0/DependencyAnnotation.deps.json
+/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/bin/Debug/net10.0/DependencyAnnotation.dll
+/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/bin/Debug/net10.0/DependencyAnnotation.pdb
+/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net10.0/DependencyAnnotation.csproj.AssemblyReference.cache
+/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net10.0/DependencyAnnotation.GeneratedMSBuildEditorConfig.editorconfig
+/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net10.0/DependencyAnnotation.AssemblyInfoInputs.cache
+/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net10.0/DependencyAnnotation.AssemblyInfo.cs
+/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net10.0/DependencyAnnotation.csproj.CoreCompileInputs.cache
+/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net10.0/DependencyAnnotation.sourcelink.json
+/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net10.0/DependencyAnnotation.dll
+/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net10.0/refint/DependencyAnnotation.dll
+/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net10.0/DependencyAnnotation.pdb
+/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/obj/Debug/net10.0/ref/DependencyAnnotation.dll

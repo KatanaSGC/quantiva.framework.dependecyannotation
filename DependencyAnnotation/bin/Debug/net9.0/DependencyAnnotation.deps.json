@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "DependencyAnnotation/1.0.5": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.18"
+        },
+        "runtime": {
+          "DependencyAnnotation.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.18": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1826.31522"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DependencyAnnotation/1.0.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eSUdaLUP+pj1J7SpCsUYQP6dNk0w9g0KGu4ovPYBnlfqomW1u+1fF8ZIjMVuHY6Z3p30yL0SxND9JTS6i3NolQ==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.18",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.18.nupkg.sha512"
+    }
+  }
+}
