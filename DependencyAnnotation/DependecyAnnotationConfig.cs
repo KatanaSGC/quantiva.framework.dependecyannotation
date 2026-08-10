@@ -1,7 +1,7 @@
 using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DependencyAnnotation;
+namespace quantiva.framework.dependecyannotation;
 
 public static class DependecyAnnotationConfig
 {

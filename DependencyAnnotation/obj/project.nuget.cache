@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "T5lgb2jCZHA=",
+  "dgSpecHash": "qNXJK/a3SVo=",
   "success": true,
-  "projectFilePath": "/home/agonzalez/Proyectos/quantiva.framework.dependecyannotation/DependencyAnnotation/DependencyAnnotation.csproj",
+  "projectFilePath": "/var/home/agustingonzalez/Desarrollos/Quantiva/quantiva.framework.dependecyannotation/DependencyAnnotation/DependencyAnnotation.csproj",
   "expectedPackageFiles": [
-    "/home/agonzalez/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+    "/var/home/agustingonzalez/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/var/home/agustingonzalez/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.18/microsoft.extensions.dependencyinjection.abstractions.9.0.18.nupkg.sha512",
+    "/var/home/agustingonzalez/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.10/microsoft.extensions.dependencyinjection.abstractions.10.0.10.nupkg.sha512",
+    "/var/home/agustingonzalez/.nuget/packages/microsoft.netcore.app.ref/9.0.18/microsoft.netcore.app.ref.9.0.18.nupkg.sha512",
+    "/var/home/agustingonzalez/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.18/microsoft.aspnetcore.app.ref.9.0.18.nupkg.sha512"
   ],
   "logs": []
 }
