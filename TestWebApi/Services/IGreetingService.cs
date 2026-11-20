@@ -1,6 +1,0 @@
-namespace TestWebApi.Services;
-
-public interface IGreetingService
-{
-    string Greet(string name);
-}

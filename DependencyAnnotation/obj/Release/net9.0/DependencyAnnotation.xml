@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DependencyAnnotation</name>
+    </assembly>
+    <members>
+        <member name="T:quantiva.framework.dependecyannotation.DependecyAnnotationConfig">
+            <summary>
+            Entry point of the library: scans assemblies and registers annotated classes in the DI container.
+            </summary>
+        </member>
+        <member name="M:quantiva.framework.dependecyannotation.DependecyAnnotationConfig.AddDependencyAnnotation(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Registers every class decorated with <see cref="T:quantiva.framework.dependecyannotation.ScopeService"/>, <see cref="T:quantiva.framework.dependecyannotation.SingletonService"/>
+            or <see cref="T:quantiva.framework.dependecyannotation.TransientService"/> found in the assemblies loaded in the current <see cref="T:System.AppDomain"/>.
+            Dynamic assemblies and framework assemblies (System*, Microsoft*, ...) are skipped.
+            </summary>
+            <param name="services">The service collection to add registrations to.</param>
+            <returns>The same <paramref name="services"/> instance, for chaining.</returns>
+            <inheritdoc cref="M:quantiva.framework.dependecyannotation.DependecyAnnotationConfig.AddDependencyAnnotation(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly[])" path="/remarks"/>
+        </member>
+        <member name="M:quantiva.framework.dependecyannotation.DependecyAnnotationConfig.AddDependencyAnnotation(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly[])">
+            <summary>
+            Registers annotated classes found only in the given assemblies.
+            Use it to scan assemblies that are not loaded yet or to limit the scan.
+            </summary>
+            <param name="services">The service collection to add registrations to.</param>
+            <param name="assemblies">Assemblies to scan.</param>
+            <returns>The same <paramref name="services"/> instance, for chaining.</returns>
+            <remarks>
+            <list type="bullet">
+            <item>Only concrete classes are considered (abstract and open generic classes are ignored).</item>
+            <item>The concrete type is always registered with its lifetime. Each implemented interface
+            (except those in <c>System*</c>/<c>Microsoft*</c> namespaces, e.g. <see cref="T:System.IDisposable"/>)
+            is forwarded to that registration, so all interfaces of a class resolve to the same instance.</item>
+            <item>Idempotent: a class already registered as a service is skipped, so calling the method twice does not duplicate registrations.</item>
+            <item>Types that cannot be loaded from an assembly (<see cref="T:System.Reflection.ReflectionTypeLoadException"/>) are ignored instead of failing.</item>
+            <item>A class with several lifetime attributes uses the first one in this order: scoped, singleton, transient.</item>
+            </list>
+            </remarks>
+        </member>
+        <member name="T:quantiva.framework.dependecyannotation.ScopeService">
+            <summary>
+            Marks a class to be registered automatically with the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped"/> lifetime
+            when <see cref="M:quantiva.framework.dependecyannotation.DependecyAnnotationConfig.AddDependencyAnnotation(Microsoft.Extensions.DependencyInjection.IServiceCollection)"/> is called.
+            </summary>
+            <remarks>
+            Lifetime: one instance per scope (per HTTP request in ASP.NET Core).
+            The concrete type is registered with this lifetime and every non-framework interface it implements
+            is forwarded to the same registration (same instance). The attribute is inherited by derived classes and can only be applied to classes.
+            </remarks>
+        </member>
+        <member name="T:quantiva.framework.dependecyannotation.SingletonService">
+            <summary>
+            Marks a class to be registered automatically with the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/> lifetime
+            when <see cref="M:quantiva.framework.dependecyannotation.DependecyAnnotationConfig.AddDependencyAnnotation(Microsoft.Extensions.DependencyInjection.IServiceCollection)"/> is called.
+            </summary>
+            <remarks>
+            Lifetime: a single instance for the lifetime of the application; it must be thread-safe.
+            The concrete type is registered with this lifetime and every non-framework interface it implements
+            is forwarded to the same registration (same instance). The attribute is inherited by derived classes and can only be applied to classes.
+            </remarks>
+        </member>
+        <member name="T:quantiva.framework.dependecyannotation.TransientService">
+            <summary>
+            Marks a class to be registered automatically with the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient"/> lifetime
+            when <see cref="M:quantiva.framework.dependecyannotation.DependecyAnnotationConfig.AddDependencyAnnotation(Microsoft.Extensions.DependencyInjection.IServiceCollection)"/> is called.
+            </summary>
+            <remarks>
+            Lifetime: a new instance every time it is requested.
+            The concrete type is registered with this lifetime and every non-framework interface it implements
+            is forwarded to the same registration (same instance). The attribute is inherited by derived classes and can only be applied to classes.
+            </remarks>
+        </member>
+    </members>
+</doc>
